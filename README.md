@@ -35,11 +35,13 @@ Remember to **unblock** the file after downloading:
 1.  Right-click `The_SUCK_Protocol.ps1`
 2.  Go to `Properties`
 3.  Check the `Unblock` box at the bottom.
-4.  Join our little community on Discord here: https://discord.gg/xtgBxkpc2x
+
 
 This protocol is a gift to our community. Use it to gain the edge you deserve.
 
 *Any questions or feedback, post them here. Welcome to the next level.*
 
 https://github.com/user-attachments/assets/40e45114-5629-44ca-990b-f9dd5a113a02
+
+Join our little community on Discord here: https://discord.gg/xtgBxkpc2x
 
