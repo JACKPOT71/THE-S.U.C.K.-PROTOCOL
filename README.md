@@ -41,7 +41,9 @@ Remember to **unblock** the file after downloading:
 
 This protocol is a gift to our community. Use it to gain the edge you deserve.
 
-*Any questions or feedback, post them here. Welcome to the next level.*
+*Any questions or feedback, post them here: https://discord.com/channels/1256343501868634112/1382681267690143894 
+
+Welcome to the next level.*
 
 https://github.com/user-attachments/assets/40e45114-5629-44ca-990b-f9dd5a113a02
 
