@@ -45,3 +45,4 @@ https://github.com/user-attachments/assets/40e45114-5629-44ca-990b-f9dd5a113a02
 
 Join our little community on Discord here: https://discord.gg/xtgBxkpc2x
 
+A big thank you goes out to everyone who has always been helpful to me on my internet adventure: Kaisen, Peter, Cytra, iL_DeMeN7E, S4SCH4, Beyond Performance, and iiiexoiii.
