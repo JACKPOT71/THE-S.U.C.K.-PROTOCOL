@@ -35,7 +35,9 @@ Remember to **unblock** the file after downloading:
 1.  Right-click `The_SUCK_Protocol.ps1`
 2.  Go to `Properties`
 3.  Check the `Unblock` box at the bottom.
-
+4.  Still not working? Copy the script to c:/
+2.  Type in admin powershell: cd c:/
+3.  After that type: ./THE_S.U.C.K.PROTOCOL.ps1
 
 This protocol is a gift to our community. Use it to gain the edge you deserve.
 
