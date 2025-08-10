@@ -399,7 +399,7 @@ Write-Host "`n[13/14] Final TCP/IP stack optimization..." -ForegroundColor Yello
 $congestionProvider = if ((Get-CimInstance -ClassName Win32_OperatingSystem).Caption -match "Windows 11") { "BBR2" } else { "dctcp" }
 "Internet", "Datacenter", "Compat", "DatacenterCustom", "InternetCustom" | ForEach-Object { netsh int tcp set supplemental Template=$_ CongestionProvider=$congestionProvider 2>&1 | Out-Null }
 "6to4", "isatap", "teredo" | ForEach-Object { netsh interface $_ set state disabled 2>&1 | Out-Null }
-netsh int tcp set global autotuninglevel=disabled | Out-Null; netsh int tcp set global ecncapability=disabled | Out-Null; netsh int tcp set global timestamps=disabled | Out-Null; netsh int tcp set global initialRto=300 | Out-Null; netsh int tcp set global rss=disabled | Out-Null
+netsh int tcp set global autotuninglevel=enabled | Out-Null; netsh int tcp set global ecncapability=disabled | Out-Null; netsh int tcp set global timestamps=disabled | Out-Null; netsh int tcp set global initialRto=300 | Out-Null; netsh int tcp set global rss=disabled | Out-Null
 Write-ColorText "       - ✓ Final TCP settings applied" "Green"
 
 Write-Host "`n[14/14] Creating persistent CLKREQ task (comprehensive fix)..." -ForegroundColor Yellow
